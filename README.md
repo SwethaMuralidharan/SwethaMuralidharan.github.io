@@ -3,7 +3,6 @@
    This is the first training material regarding git and GitHub.My personal portfolio is created with css styles and pushed in GitHub.
 
 ### Contributing
-
     	1)Fork it!
 	2)Create your feature branch: git checkout -b my-new-feature
 	3)Commit your changes: git commit -am 'Add some feature'
