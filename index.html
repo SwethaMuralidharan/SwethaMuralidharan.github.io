@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Swetha's GA</title>
   <!-- meta -->
   <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <meta name="description" content="Personal Site">
   <meta name="author" content="GA Student">
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
@@ -18,11 +23,98 @@
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
 <body>
-  <div id="page-wrapper">
+  <div class="container-fluid">
 
-    <img src="/Users/swethamuralidharan/fundamentals/wdi/SwethaMuralidharan.github.io/assets/imgs/favicon.png"/>
-    <h1>Swetha Muralidharan</h1>
-    
+
+            <!-- /* First Row has only my name which uses full 12 cells */ -->
+            <div class="row">
+              <div class="col-sm-12">
+                  <h1 style="line-height:1.2em;" class="font_0">
+                    <span style="line-height:1.2em;"><span class="color_14">Swetha Muralidharan</span></span></h1>
+              </div>
+            </div>
+
+            <!-- /* Second Row : Role Name & navbar*/ -->
+            <div class="row">
+                <div class="col-sm-6">
+                  <h2 class="font_6"><span>Software Web Developer</span></h2>
+                </div>
+                <div class="col-sm-6">
+                  <nav class="navbar navbar-inverse">
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">About</a></li>
+                        <li><a href="#work">My Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                      </ul>
+
+                  </nav>
+                </div>
+            </div>
+   </div>
+            <!-- /* Third row for About Section. Picture and a description! */ -->
+
+            <div class="content-div">
+              <div class="row">
+              <div class="col-sm-4">
+                <img class="imgContent" style="width:60%" src="assets/imgs//Pro.jpg" >
+              </div>
+              <div class="col-sm-8">
+                <p>
+                    Our names are labels, plainly printed on the bottled essence of our past behavior.
+                      - Logan Pearsall Smith
+                </p>
+                <p>
+                   My name is pronounced like Swetha. I reside in California and spend my time outside of the office cooking, hiking, and travelling.
+               </p>
+                <p>
+                    If at first you don’t succeed; call it version 1.0.
+
+                </p>
+                <p>
+                   Things aren’t always #000000 and #FFFFFF.
+
+                </p>
+              </br>
+              </br>
+
+
+
+              </div>
+            </div>
+          </div>
+
+
+       <div id="work" class="projects"><h1> My Projects </h1></div>
+
+       <div class="projects-container">
+
+       </div>
+
+   <div id="contact" class="projects"><h1> Contact Me Here! </h1></div>
+   <div class="contact_info">
+    <div class="row">
+      <div class="col-sm-4">
+          <p style="line-height:1.2em;" class="font_8">
+            <span style="line-height:1.2em;"><strong>﻿Email</strong>&nbsp;<object height="0">
+              <a href="mailto:swetha.blue.sky@gmail.com"
+              >swetha.blue.sky@gmail.com</a></object></span></p>
+      </div>
+      <div class="col-sm-4">
+        <p style="line-height:1.2em;" class="font_8">
+          <span style="line-height:1.2em;">
+             <img id="imgLnkin" style="width:5%" src="http://www.whiteroseconstruction.ca/wp-content/uploads/2014/11/linkedin-icon.png">
+          <a href="https://www.linkedin.com/in/swetha-muralidharan-48238925/">Linkedin</a>
+
+      </div>
+
+    <div class="col-sm-4">
+      <p style="line-height:1.2em;" class="font_8">
+        <span style="line-height:1.2em;">
+            <img id="imgLnkin" style="width:5%" src="http://www.audiencebloom.com/wp-content/uploads/2012/12/fb-300x300.png">
+          <a href="https://www.facebook.com/swetha.blue.sky"> Facebook </a>
+
+    </div>
+  </div>
   </div>
 </body>
 </html>
