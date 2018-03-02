@@ -1,7 +1,5 @@
 /* custom styles */
 .container-fluid{
-  line-height: normal;
-  letter-spacing: normal;
   word-wrap: break-word;
   background-color: #b0b0b0;
 }
@@ -17,10 +15,12 @@
 
 .color_14{
   color:#606060;
+  line-height:1.2em;
 }
 .font_0 {
     font: normal normal bold 38px/1.2em 'Noticia Text',serif;
     color: #606060;
+    line-height:1.2em;
 }
 
 .font_6 {
@@ -30,7 +30,7 @@
 .imgContent{
   padding:30px 20px;
   border-radius:50%;
-  float:left;
+  /*float:left;*/
   top: 30%;
   left: 10%;
   margin-top:40px;
@@ -47,7 +47,10 @@ p{
   padding-top:40px;
 
 }
+/*.position{
+  position:absolute;
 
+}*/
 .projects{
   text-align: center;
   border:1px solid gray;
@@ -55,21 +58,24 @@ p{
   background-color: #b0b0b0;
 }
 
-.h3{
+h3{
   text-decoration: underline;
   font-weight: 400;
   font-family: sans-serif;
   font-style:oblique;
 
 }
-.h4{
+.h4_desc{
   text-decoration: underline;
   font-family: sans-serif;
   font-weight:normal;
   font-style:oblique;
 }
-.a{
+a{
   font-size: 20px;
   font-style: italic;
   padding-top: 20px;
+}
+.img_center{
+  padding-left: 40px;
 }
