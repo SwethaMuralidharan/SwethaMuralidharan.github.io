@@ -37,7 +37,7 @@ for(let i=0;i<projects.length;i++)
     <h4>${projects[i].description} </h4></br>
     <h4 class="a" >  <a href="${[projects[i].project_url]}">Click Here for Project</a> </h5> </br>
     <div>
-      <img src='${[projects[i].image_url]}' height="200" width="200" style="margin-left:150px; padding-left:100px;"/>
+      <img src='${[projects[i].image_url]}' height="250" width="500" style="margin-left:150px; padding-left:100px;"/>
     </div>
   `);
 }
