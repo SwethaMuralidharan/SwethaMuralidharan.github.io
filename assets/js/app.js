@@ -36,11 +36,10 @@ for(let i=0;i<projects.length;i++)
     <h4 class="h4_desc"> Description: </h4>
     <h4>${projects[i].description} </h4></br>
     <h4 class="a" >  <a href="${[projects[i].project_url]}">Click Here for Project</a> </h5> </br>
-    <div id="img_center">
-      <img src='${[projects[i].image_url]}' height="100" width="100"/>
+    <div>
+      <img src='${[projects[i].image_url]}' height="100" width="100" style="margin-left:150px;"/>
     </div>
   `);
-  $('#img_center').addClass('img_center');
 }
 
 
