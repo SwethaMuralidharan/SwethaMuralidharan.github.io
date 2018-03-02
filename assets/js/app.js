@@ -22,10 +22,10 @@ var projects=[
     image_url:"https://i.ytimg.com/vi/phXZVneg5ow/hqdefault.jpg"
   },
   {
-    name: "Js Basics Problem Set",
-    description:"Javascript basics Problem Set with logical approach.",
-    project_url:"https://github.com/SwethaMuralidharan/problem-set-js-basics",
-    image_url:"https://achievement-images.teamtreehouse.com/badges_JavaScript_Basics_Stage1.png"
+    name: "Airbnb",
+    description:"This app lets you to search for rental homes in various places of the world and book homes at the required cost and enjoy your vacation. Users of this app can be a host as well as a guest. Host posts their rental information as listing in this app which gets listed when other users search for vacation homes in that city.",
+    project_url:"https://github.com/SwethaMuralidharan/Airbnb-FrontEnd",
+    image_url:"https://airbnb-fe.herokuapp.com/"
   }
 ]
 
@@ -33,8 +33,8 @@ for(let i=0;i<projects.length;i++)
 {
   $(".projects-container").append(`<div class="content-div">
     <h3 class="h3"> Project Title : ${projects[i].name} </h3> </br>
-    <h4 class="h4"> Description: </h4>
-    <h4 class-"h4_desc">${projects[i].description} </h4></br>
+    <h4 class="h4_desc"> Description: </h4>
+    <h4>${projects[i].description} </h4></br>
     <h4 class="a" >  <a href="${[projects[i].project_url]}">Click Here for Project</a> </h5> </br>
     <h4 class="a">  <a href= ${[projects[i].image_url]} > Screenshot Available Here! </a> </h5> </div>`);
 }
